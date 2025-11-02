@@ -20,7 +20,7 @@ html{
     overflow-x: hidden;
 }
 section{
-    padding: 1.8rem 9%;
+    padding: 1.5rem 9%;
 }
 
 .heading{
@@ -61,7 +61,7 @@ header{
     justify-content: space-between;
     z-index: 1000;
     box-shadow: 0 .5rem 1rem  rgba(0, 0, 0,0.1);
-    background: transparent;
+    background: white;
      
 }
 .logo{
@@ -248,10 +248,12 @@ header .fa-bars{
     text-align: center; 
     padding-top: 2rem;
     overflow: hidden;
+    
 }
 
 .jobs .box-container .box .image img{
-    height: 35rem;
+    height: 34rem;
+    width: 36rem;
 
 }
 
