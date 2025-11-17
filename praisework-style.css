@@ -49,7 +49,14 @@ section{
 }
 .btn:hover{
     background-color: #000000;
-} 
+}
+
+.whatsapp{
+    position: fixed;
+    right: 1px;
+    bottom: 25px;  
+    font-size: 40px;
+}
 header{
     position: fixed;
     top: 0;
@@ -61,7 +68,7 @@ header{
     justify-content: space-between;
     z-index: 1000;
     box-shadow: 0 .5rem 1rem  rgba(0, 0, 0,0.1);
-    background: transparent;
+    background: white;
      
 }
 .logo{
@@ -91,7 +98,7 @@ header .icons a{
 }
 
 header .icons a:hover{
-    color: gold;
+    color: red;
 }
 
 header #toggler{
@@ -120,27 +127,28 @@ header .fa-bars{
 }
 
 .home .content h3{
-    font-size: 6rem;
-    color: #000000;
-    font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-shadow: white;
+    font-size: 5rem;
+    color: hsl(0, 0%, 0%);
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: rgb(0, 0, 0);
 }
 
 .home .content span{
-    font-size: 3.5rem;
+    font-size: 4rem;
     color: gold;
     padding: 1rem 0;
     line-height: 1.5;
     font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .home .content p{
-    font-size: 1.5rem;
-    color: #ffffff;
+    font-size: 1.7rem;
+    color: rgb(255, 255, 255);
     padding: 1rem 0;
     line-height: 1.5;
+    font-weight: bold;
 }
 .about .row{
     display: flex;
@@ -252,6 +260,7 @@ header .fa-bars{
 
 .jobs .box-container .box .image img{
     height: 35rem;
+    width: 35rem;
 
 }
 
@@ -359,9 +368,113 @@ header .fa-bars{
     align-items: center;
     padding-top: 2rem;
 }
+.contact .row{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 1.5rem;
+    align-items: center;
+}
 
+.contact .row form{
+    flex: 1 1 40rem;
+    padding: 2rem 2.5rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    border: 4px solid rgba(0,0,0,.1);
+    background: #fff;
+    border-radius: .5rem;
+}
 
+.contact .row .image1{
+    flex: 1 1 40rem;
+}
 
+.contact .row .image1 img{
+    width: 100%;
+}
+
+.contact .row form .box{
+    padding: 1rem;
+    font-size: 1.7rem;
+    color: #333;
+    text-transform: none;
+    border: 2px solid rgba(0,0,0,.1);
+    border-radius: .5rem;
+    margin: .7rem 0;
+    width: 100%;
+}
+
+.contact .row form .box:focus{
+    border-color: black;
+}
+
+.contact .row form textarea{
+    height: 15rem;
+    resize: none;
+}
+
+.contact .row h3{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
+}
+
+.contact .row p{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: gold;
+
+}
+
+.footer .box-container{
+    padding-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.footer .box-container .box{
+    flex: 1 1 25rem;
+}
+
+.footer .box-container .box h3{
+    color: #333;
+    font-size: 2.5rem;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box a{
+    display: block;
+    color: #666;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box a:hover{
+    color: gold;
+    text-decoration: underline;
+}
+
+.footer .box-container .box img{
+    margin-top: 1rem;
+    width: 20rem;
+    height: 5rem;
+}
+
+.footer .credit{
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    padding: 2.5rem;
+    font-size: 2rem;
+    color: #333;
+    border-top: .1rem solid rgba(0, 0, 0,.1);
+}
+
+.footer .credit span{
+    color: gold;
+}
 
 
 
